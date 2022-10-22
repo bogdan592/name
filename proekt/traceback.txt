@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 109, in script
+    if not player.win:
+  File "game/script.rpy", line 109, in <module>
+    if not player.win:
+AttributeError: 'Coordinate' object has no attribute 'win'
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 109, in script
+    if not player.win:
+  File "C:\Users\User\Desktop\renpy-8.0.3-sdk\renpy\ast.py", line 2115, in execute
+    if renpy.python.py_eval(condition):
+  File "C:\Users\User\Desktop\renpy-8.0.3-sdk\renpy\python.py", line 1092, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\User\Desktop\renpy-8.0.3-sdk\renpy\python.py", line 1085, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 109, in <module>
+    if not player.win:
+AttributeError: 'Coordinate' object has no attribute 'win'
+
+Windows-7-6.1.7601-SP1 AMD64
+Ren'Py 8.0.3.22090809
+proekt 1.0
+Sat Oct 15 17:53:33 2022
