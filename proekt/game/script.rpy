@@ -159,7 +159,7 @@ label start:
                 клубнеплод\n"""
         "картошка":
             show potato princess at left_jumping
-            e "урааа"
+            e "урaааа"
         "не картошка":
             jump game_over
     
